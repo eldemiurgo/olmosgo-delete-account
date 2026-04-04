@@ -1,0 +1,1 @@
+# olmosgo-delete-account
