@@ -1,4 +1,4 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -83,5 +83,16 @@
         
         <p>Si deseas eliminar tu cuenta de <strong>Rurall</strong> y todos los datos personales asociados a ella, por favor ingresa tu correo electrónico a continuación. Procesaremos tu solicitud en un plazo máximo de 7 días hábiles.</p>
         
-        
+        <form action="mailto:TU_CORREO@GMAIL.COM" method="POST" enctype="text/plain">
+            <label for="email">Correo electrónico asociado a la cuenta:</label>
+            <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+            
+            <button type="submit">Solicitar eliminación de mis datos</button>
+        </form>
 
+        <div class="footer">
+            <p>Al enviar esta solicitud, confirmas que eres el titular de la cuenta. Todos los datos personales, historial de ubicación y registros asociados a la aplicación serán borrados permanentemente de nuestros servidores.</p>
+        </div>
+    </div>
+</body>
+</html>
